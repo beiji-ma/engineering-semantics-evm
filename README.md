@@ -88,6 +88,7 @@ engineering-versioning-model/
 └── appendices/
     ├── A-outline.md
     └── B-overview.md
+    └── C-evm_industry_comparison.md
 ```
 
 ---
