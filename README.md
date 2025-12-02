@@ -9,12 +9,11 @@
 
 [![Status](https://img.shields.io/badge/status-active-brightgreen)]() [![Whitepaper](https://img.shields.io/badge/whitepaper-EVM-blue)]() [![Semantic%20Engineering](https://img.shields.io/badge/semantic-engineering-purple)]() [![AI%20Ready](https://img.shields.io/badge/AI-ready-orange)]()
 
-# **Engineering Versioning Model (EVM)** (EVM)**
+# **Engineering Versioning Model (EVM)**
 
 **Author:** Beiji Ma  
 *Semantic Systems Architect — Creator of the NOVA × EVM Engineering Semantics Framework*
 
- (EVM)**
 ### *A Semantic Framework for Multi-Domain Engineering Evolution*
 
 ---
