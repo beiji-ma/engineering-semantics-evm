@@ -9,27 +9,53 @@
 
 [![Status](https://img.shields.io/badge/status-active-brightgreen)]() [![Whitepaper](https://img.shields.io/badge/whitepaper-EVM-blue)]() [![Semantic%20Engineering](https://img.shields.io/badge/semantic-engineering-purple)]() [![AI%20Ready](https://img.shields.io/badge/AI-ready-orange)]()
 
-# **Engineering Versioning Model (EVM)**
+# Engineering Versioning Model (EVM)
 
-**Author:** Beiji Ma  
+**Author:** Beiji Ma\
 *Semantic Systems Architect — Creator of the NOVA × EVM Engineering Semantics Framework*
 
 ### *A Semantic Framework for Multi-Domain Engineering Evolution*
 
 ---
 
+## ⚡ Quick Start — What EVM Is (at a Glance)
+
+If you only remember one thing about **EVM**, it is this:
+
+```
+A Version = { intent, diff, lineage, genealogy, context }
+
+These five components are collectively known as the **Semantic Version Quintet (EVM‑5)** — the five semantic axes that define version meaning in engineering systems.
+```
+
+EVM reframes engineering evolution from **linear revisions** → into a **semantic, causal, multi-domain graph**.
+
+**One-sentence definition:**
+
+> **EVM is the semantic versioning layer that engineering has always been missing.**
+
+**What it gives you immediately:**
+
+- Clear version meaning (not just RevA/RevB)
+- Multi-domain version correctness
+- AI-ready structure of engineering history
+- Applicability + variant semantics (real effectivity)
+- Causality-aware digital thread / digital twin
+
+---
+
 ## 📘 About This Repository
 
-This repository contains the official **Engineering Versioning Model (EVM)** whitepaper and supporting materials.  
+This repository contains the official \*\*Engineering Versioning Model  whitepaper and supporting materials.\
 EVM defines a **semantic versioning framework** designed specifically for engineering systems — spanning mechanical design, electronics, firmware, configuration rules, manufacturing processes, and digital thread/digital twin ecosystems.
 
 Unlike traditional PLM revisioning (e.g., linear RevA → RevB → RevC), EVM models engineering evolution as a:
 
-- **semantic object**  
-- **causal node**  
-- **multi-dimensional coordinate** (Time × Variant × Semantic)  
-- **context-aware entity**  
-- **graph structure (EVG)**  
+- **semantic object**
+- **causal node**
+- **multi-dimensional coordinate** (Time × Variant × Semantic)
+- **context-aware entity**
+- **graph structure (EVG)**
 - **AI-interpretable version representation**
 
 This repository hosts the **full whitepaper**, diagrams, and glossary that define the EVM framework.
@@ -40,24 +66,24 @@ This repository hosts the **full whitepaper**, diagrams, and glossary that defin
 
 Modern engineering systems suffer from deep structural limitations:
 
-- Linear revisions cannot express **parallel variant evolution**  
-- BOM, CAD, Firmware, Rules each evolve **independently**  
-- Effectivity is treated as metadata, not **semantic applicability**  
-- No system captures **engineering intent**  
-- Causality is lost (no lineage)  
-- AI cannot reason over unstructured engineering history  
+- Linear revisions cannot express **parallel variant evolution**
+- BOM, CAD, Firmware, Rules each evolve **independently**
+- Effectivity is treated as metadata, not **semantic applicability**
+- No system captures **engineering intent**
+- Causality is lost (no lineage)
+- AI cannot reason over unstructured engineering history
 - Digital thread and digital twin are often **version-incorrect**
 
 EVM addresses these problems by introducing:
 
-- Semantic diffs  
-- Structural genealogy  
-- Causal lineage  
-- Variant/context axes  
-- Intent-driven evolution  
-- Multi-domain propagation semantics  
-- Full graph representation via EVG  
-- AI-ready engineering structures  
+- Semantic diffs
+- Structural genealogy
+- Causal lineage
+- Variant/context axes
+- Intent-driven evolution
+- Multi-domain propagation semantics
+- Full graph representation via EVG
+- AI-ready engineering structures
 
 ---
 
@@ -87,7 +113,6 @@ engineering-versioning-model/
 └── appendices/
     ├── A-outline.md
     └── B-overview.md
-    └── C-evm_industry_comparison.md
 ```
 
 ---
@@ -96,13 +121,13 @@ engineering-versioning-model/
 
 EVM is a semantic framework defining:
 
-- **Intent** — why the change exists  
-- **Diff semantics** — what changed structurally/functionally  
-- **Lineage** — how causality propagates across domains  
-- **Genealogy** — structural derivation and decomposition  
-- **Context** — where a version applies (variant, market, effectivity)  
-- **Tensor coordinates** — version as Time × Variant × Semantic  
-- **EVG** — Engineering Version Graph (runtime model)  
+- **Intent** — why the change exists
+- **Diff semantics** — what changed structurally/functionally
+- **Lineage** — how causality propagates across domains
+- **Genealogy** — structural derivation and decomposition
+- **Context** — where a version applies (variant, market, effectivity)
+- **Tensor coordinates** — version as Time × Variant × Semantic
+- **EVG** — Engineering Version Graph (runtime model)
 
 It is the missing semantic layer beneath PLM/MBSE systems.
 
@@ -112,15 +137,15 @@ It is the missing semantic layer beneath PLM/MBSE systems.
 
 EVM enables:
 
-- AI-native engineering reasoning  
-- Full digital thread reconstruction  
-- Context-correct and version-correct digital twins  
-- Multi-variant, multi-domain version consistency  
-- Causal evolution visibility  
-- Automated impact analysis and propagation  
-- Semantic versioning across CAD/ECAD/BOM/Firmware/Rules/Process  
+- AI-native engineering reasoning
+- Full digital thread reconstruction
+- Context-correct and version-correct digital twins
+- Multi-variant, multi-domain version consistency
+- Causal evolution visibility
+- Automated impact analysis and propagation
+- Semantic versioning across CAD/ECAD/BOM/Firmware/Rules/Process
 
-EVM is not an extension of revision control —  
+EVM is not an extension of revision control —\
 it is a **new theory of engineering version semantics**.
 
 ---
@@ -129,14 +154,14 @@ it is a **new theory of engineering version semantics**.
 
 The repository includes a complete glossary (`13-Glossary.md`) that defines:
 
-- NOVA (the semantic architecture layer)  
-- EVM, EVG  
-- OID (Object Identity)  
-- Intent / Diff / Lineage / Genealogy  
-- Effectivity and Variant Space  
-- Semantic lifecycle verbs  
-- CSI (Causal Snapshot Integration)  
-- PQL (Property Query Language)  
+- NOVA (the semantic architecture layer)
+- EVM, EVG
+- OID (Object Identity)
+- Intent / Diff / Lineage / Genealogy
+- Effectivity and Variant Space
+- Semantic lifecycle verbs
+- CSI (Causal Snapshot Integration)
+- PQL (Property Query Language)
 
 ---
 
@@ -144,34 +169,34 @@ The repository includes a complete glossary (`13-Glossary.md`) that defines:
 
 Recommended reading order:
 
-1. **01-Executive-Summary.md** – high-level overview  
-2. **03-Foreword-Preface.md** – motivation and industry problem framing  
-3. **04–06** – foundations and semantic axes  
-4. **07–08** – lifecycle and EVG graph model  
-5. **09** – integration with NOVA (the semantic architecture layer)  
-6. **10** – AI × EVM  
-7. **11** – cross-domain use cases  
-8. **12** – EVM as an engineering standard  
-9. **13-Glossary.md** – complete definitions  
+1. **01-Executive-Summary.md** – high-level overview
+2. **03-Foreword-Preface.md** – motivation and industry problem framing
+3. **04–06** – foundations and semantic axes
+4. **07–08** – lifecycle and EVG graph model
+5. **09** – integration with NOVA (the semantic architecture layer)
+6. **10** – AI × EVM
+7. **11** – cross-domain use cases
+8. **12** – EVM as an engineering standard
+9. **13-Glossary.md** – complete definitions
 
 ---
 
 ## 🤝 Contributions
 
-This repository currently serves as the formal host of the EVM whitepaper.  
+This repository currently serves as the formal host of the EVM whitepaper.\
 Future contributions may include:
 
-- reference implementations  
-- sample EVG schemas  
-- PQL query examples  
-- integration adapters  
-- industry-specific case studies  
+- reference implementations
+- sample EVG schemas
+- PQL query examples
+- integration adapters
+- industry-specific case studies
 
 ---
 
 ## 📜 License
 
-To be defined by the repository owner.  
+To be defined by the repository owner.\
 (Recommended: **CC BY-NC-SA 4.0** for non-commercial sharing and adaptation.)
 
 ---
@@ -180,15 +205,15 @@ To be defined by the repository owner.
 
 For discussions related to:
 
-- semantic modeling  
-- engineering version control  
-- AI-native engineering systems  
-- digital thread / digital twin consistency  
+- semantic modeling
+- engineering version control
+- AI-native engineering systems
+- digital thread / digital twin consistency
 
 please open an Issue in this repository or contact the maintainers via your preferred collaboration channel.
 
 ---
 
-**Engineering Versioning Model (EVM)** —  
+\*\*Engineering Versioning Model  —\
 *from revision logs to semantic engineering evolution.*
 

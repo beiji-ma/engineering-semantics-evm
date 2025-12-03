@@ -61,6 +61,7 @@ EVM fills this structural void.
 # **The EVM Graph (EVG)**
 
 ## **One-Page Semantic Overview Diagram (Mermaid)**
+
 ```mermaid
 flowchart TD
 
@@ -108,7 +109,6 @@ flowchart TD
     EVMIntro --> Implementation
     Implementation --> NOVA
 ```
-
 
 At runtime, EVM is expressed as an **Engineering Version Graph**, fusing:
 
@@ -199,6 +199,8 @@ Version = {
   genealogy,     // how structure evolved
   context        // where/when it applies
 }
+
+These five elements collectively form the **Semantic Version Quintet (EVM-5)** — the formal semantic basis of version meaning in engineering systems.
 ```
 
 ## **C. Storage-Agnostic Note**
