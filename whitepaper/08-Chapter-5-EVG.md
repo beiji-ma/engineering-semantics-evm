@@ -81,10 +81,10 @@ flowchart TD
                      ▼
 ┌───────────────────────────────────────────────┐
 │  SEMANTIC RUNTIME                             │
-│    - PQL Engine                                │
-│    - Semantic Cache                            │
-│    - Lineage Engine                            │
-│    - CSI Engine                                │
+│    - PQL Engine                               │
+│    - Semantic Cache                           │
+│    - Lineage Engine                           │
+│    - CSI Engine                               │
 └───────────────────────────────────────────────┘
                      ▼
 ┌───────────────────────────────────────────────┐
