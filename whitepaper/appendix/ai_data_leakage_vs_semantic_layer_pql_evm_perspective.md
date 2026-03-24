@@ -8,8 +8,7 @@
 
 > Imagine a scenario:
 >
-> User A queries a product information system.
-> The system automatically traverses relationships through a semantic layer: Product → Owner → Email.
+> User A queries a product information system. The system automatically traverses relationships through a semantic layer: Product → Owner → Email.
 >
 > User A has never been authorized to access Owner information.
 >
@@ -110,8 +109,7 @@ A key side effect:
 
 > **Data reachability is dramatically increased.**
 
-Reachability defines not what data exists,
-but what data can be *arrived at*.
+Reachability defines not what data exists, but what data can be *arrived at*.
 
 ### Example
 
@@ -191,8 +189,7 @@ Reality:
 
 If the above is true, then a more fundamental question emerges:
 
-> In systems with strong semantic capabilities (joins, context enrichment, cross-system integration),
-> **how should we define the boundary of data access?**
+> In systems with strong semantic capabilities (joins, context enrichment, cross-system integration), **how should we define the boundary of data access?**
 
 Traditional answers:
 
@@ -238,6 +235,8 @@ Today, these questions still lack clear answers in the industry.
 
 And most systems were never designed to answer that question.
 
+> *If you think deeply about today’s rush to connect systems to AI, it becomes quietly terrifying.*
+
 ---
 
 ## 11. Series Continuation
@@ -281,9 +280,7 @@ To avoid ambiguity, we use the following terms:
 
 ### Key Distinction
 
-> Propagation moves context.
-> Pushdown enforces it.
-> Reachability determines whether a result should be reachable at all.
+> Propagation moves context. Pushdown enforces it. Reachability determines whether a result should be reachable at all.
 
 ---
 
